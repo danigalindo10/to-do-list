@@ -11,7 +11,7 @@ const alert = document.getElementById('alert');
 const addTaskEvent = () => {
   button.addEventListener('click', () => {
     if (input.value) {
-      const task = new Task(input.value, toDoTasks.lenght + 1);
+      const task = new Task(input.value, toDoTasks.length + 1);
       createList(task);
       toDoTasks.push(task);
       // Local Storage
