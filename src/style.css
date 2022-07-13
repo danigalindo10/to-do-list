@@ -62,12 +62,12 @@ head {
   background-color: white;
 }
 
-head h2 {
-  flex: 1;
-}
-
 h2 {
   background-color: white;
+}
+
+head h2 {
+  flex: 1;
 }
 
 .edit {
