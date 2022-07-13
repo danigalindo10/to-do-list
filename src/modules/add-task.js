@@ -22,7 +22,7 @@ const addTaskEvent = () => {
       alert.style.display = 'block';
       setTimeout(() => {
         alert.style.display = 'none';
-      }, 100);
+      }, 1000);
     }
   });
 };
