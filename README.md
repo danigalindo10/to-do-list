@@ -1,11 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# To Do list: list structure
-
->In this project I created a to do list structure using a simple HTML list. All of this implementing ES6 syntax.
+# To Do list: add and remove
+> In this project I created a functional to do list using a simple HTML list and displaying the list dynamically. You can add tasks and remove them manually. All of this implementing ES6 syntax.
 
 ## Built With
-
 - VSCode
 - HTML
 - CSS
@@ -14,17 +12,14 @@
 - Webpack
 
 ## Getting Started
-
 To get a local copy up and running follow these simple example steps.
 
 ### Install
-
 - Set up Github Actions
 - Set up linter > Lighthouse , Webhint , Stylelint and Eslint.
 
 ### Run tests
-
-Then open your favourite code editor (Optional VSCode), and use the live server extension to see your changes result.
+Open your favourite code editor (Optional VSCode), and type on the terminal the `npm run dev` command to see the results. 
 
 To get a local copy up and running follow these simple example steps.
 
@@ -45,17 +40,14 @@ To clone the repository run `git@github.com:danigalindo10/to-do-list.git` in you
 ## Authors
 
 👤 **Daniel Galindo**
-
 - GitHub: [@danigalindo10](https://github.com/danigalindo10)
 - Twitter: [@codedanig](https://twitter.com/codedanig)
 - LinkedIn: [Daniel Galindo](https://www.linkedin.com/in/daniel-galindo-31b922236/)
 
 ## 🤝 Contributing
-
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/danigalindo10/to-do-list/issues)
 
 ## 📝 License
-
 This project is [MIT](./MIT.md) licensed.
