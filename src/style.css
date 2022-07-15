@@ -1,26 +1,25 @@
+
 * {
   box-sizing: border-box;
 }
 
-body * {
-  background-color: whitesmoke;
-  padding: 0;
+body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: black;
+  background-color: whitesmoke;
 }
 
-/* LIST ELEMENTS */
-
 ul {
-  padding: 0;
   list-style: none;
+  padding: 0;
 }
 
 h1 {
-  padding-top: 20vh;
-  font-size: 35px;
   text-align: center;
   color: black;
   margin: 0 auto;
+  padding-top: 20vh;
+  font-size: 35px;
 }
 
 button,
@@ -31,18 +30,18 @@ input {
 }
 
 .box {
-  padding: 3rem;
-  background-color: white;
   width: 45%;
   margin: 0 auto;
+  padding: 3rem;
+  background-color: white;
 }
 
 .task {
-  width: 100%;
-  padding: 0.5rem;
   display: flex;
   gap: 1rem;
   align-items: center;
+  width: 100%;
+  padding: 0.5rem;
 }
 
 .text {
@@ -50,42 +49,35 @@ input {
 }
 
 .done {
-  color: black;
   text-decoration: line-through;
-}
-
-head {
-  display: flex;
+  color: black;
 }
 
 .head {
-  background-color: white;
+  display: flex;
 }
 
-h2 {
-  background-color: white;
-}
-
-head h2 {
+.head h2 {
   flex: 1;
 }
 
 .edit {
-  outline: 1px solid green;
+  display: none;
+  flex: 1;
+  outline: 1px solid greenyellow;
 }
 
 #alert {
-  color: whitesmoke;
-  background-color: red;
   display: none;
   padding: 0.8rem;
+  background-color: #c30;
+  color: whitesmoke;
 }
 
 #container {
-  gap: 1rem;
-  display: flex;
   width: 100%;
-  background-color: white;
+  display: flex;
+  gap: 1rem;
 }
 
 #clear {
@@ -94,18 +86,18 @@ head h2 {
 
 #add-task,
 #clear {
-  padding: 0.8rem;
   color: black;
-  outline: 1px solid black;
   background-color: whitesmoke;
+  padding: 0.8rem;
+  outline: 1px solid black;
 }
 
 #add-task:active,
 #clear:active {
-  color: grey;
-  background-color: whitesmoke;
+  color: whitesmoke;
+  background-color: gray;
   padding: 0.7rem;
-  outline: 1px solid grey;
+  border: 0.1rem solid gray;
 }
 
 #new-task {
