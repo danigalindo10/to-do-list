@@ -1,8 +1,9 @@
 import './style.css';
-import createList from './modules/create-list.js';
+import createLi from './modules/create-list.js';
 import addTaskEvent from './modules/add-task.js';
 import getData from './modules/get-data.js';
+import clearList from './modules/clear-list.js';
 
-getData().forEach((task) => createList(task));
-
+getData().forEach((task) => createLi(task));
+clearList();
 addTaskEvent();
