@@ -11,6 +11,9 @@
 - ES6
 - Webpack
 
+## Live Demo (available)
+[Live Demo Link](https://danigalindo10.github.io/to-do-list/dist/)
+
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
 
