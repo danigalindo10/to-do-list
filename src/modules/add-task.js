@@ -15,7 +15,7 @@ const addTask = () => {
     localStorage.setItem('toDoData', JSON.stringify(toDoTasks));
     input.value = '';
   } else {
-    alert.innerHTML = 'Empty field';
+    alert.innerHTML = 'Empty field!';
     alert.style.display = 'block';
     setTimeout(() => {
       alert.style.display = 'none';

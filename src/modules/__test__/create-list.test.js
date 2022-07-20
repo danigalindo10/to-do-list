@@ -7,7 +7,7 @@ import createLi from '../create-list.js';
 describe('Create LI function', () => {
   test('Should add a li element to the DOM', () => {
     const task = {
-      description: 'clean my room',
+      description: 'go for walk',
       completed: false,
       index: 1,
     };

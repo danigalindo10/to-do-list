@@ -10,7 +10,7 @@ jest.mock('../get-data.js');
 
 describe('Add task function', () => {
   test('testing localstorage', () => {
-    const data = [{ description: 'clean my room', completed: false, index: 1 }];
+    const data = [{ description: 'go for walk', completed: false, index: 1 }];
     expect(getData()).toEqual(data);
   });
   // Mock members are useful in tests to assert how these functions get called
