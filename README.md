@@ -31,9 +31,16 @@ To get a local copy up and running follow these simple example steps.
 - Installation of files.
 - Javasript arrays, objects and classes.
 - Instalation of webpack.
+- Instalation of Jest.
+- Instalation of babel.
 
 ### Setup
-To clone the repository run `git@github.com:danigalindo10/to-do-list.git` in your terminal
+Write the following commands to clone and run it:
+- To clone the repository: `git@github.com:danigalindo10/to-do-list.git`
+- To enter directory: `cd to-do-list`
+- To install packages: `npm install`
+- To run project on local server: `npm start`
+- To open project with vs code: `code .`
 
 ## Authors
 
@@ -48,8 +55,14 @@ To clone the repository run `git@github.com:danigalindo10/to-do-list.git` in you
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
-
 Feel free to check the [issues page](https://github.com/danigalindo10/to-do-list/issues)
+
+## Show your support
+Dive a ⭐️ if you like this project!
+
+## Ackowledgments
+- Hat tip to anyone whose code was used
+- Inspiration
 
 ## 📝 License
 This project is [MIT](./MIT.md) licensed.
