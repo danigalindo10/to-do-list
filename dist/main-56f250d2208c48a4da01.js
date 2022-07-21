@@ -139,13 +139,23 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/modules/clear-list-helper.js":
+/*!******************************************!*\
+  !*** ./src/modules/clear-list-helper.js ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _remove_task_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./remove-task.js */ \"./src/modules/remove-task.js\");\n\n\nconst clearListHelper = () => {\n  const tasks = document.querySelectorAll('.task');\n  const tasksToBeRemoved = [...tasks].filter((task) => {\n    const checkbox = task.querySelector('.check');\n    return checkbox.checked;\n  });\n  tasksToBeRemoved.forEach((task) => {\n    const removeButton = task.querySelector('.remove');\n    (0,_remove_task_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(removeButton);\n  });\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (clearListHelper);\n\n//# sourceURL=webpack://webpack-demo/./src/modules/clear-list-helper.js?");
+
+/***/ }),
+
 /***/ "./src/modules/clear-list.js":
 /*!***********************************!*\
   !*** ./src/modules/clear-list.js ***!
   \***********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _remove_task_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./remove-task.js */ \"./src/modules/remove-task.js\");\n\n\nconst clearList = () => {\n  const clearButton = document.getElementById('clear');\n  clearButton.addEventListener('click', () => {\n    const tasks = document.querySelectorAll('.task');\n    const tasksToBeRemoved = [...tasks].filter((task) => {\n      const checkbox = task.querySelector('.check');\n      return checkbox.checked;\n    });\n    tasksToBeRemoved.forEach((task) => {\n      const removeButton = task.querySelector('.remove');\n      (0,_remove_task_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(removeButton);\n    });\n  });\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (clearList);\n\n//# sourceURL=webpack://webpack-demo/./src/modules/clear-list.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _clear_list_helper_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./clear-list-helper.js */ \"./src/modules/clear-list-helper.js\");\n\n\nconst clearList = () => {\n  const clearButton = document.getElementById('clear');\n  clearButton.addEventListener('click', () => {\n    (0,_clear_list_helper_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n  });\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (clearList);\n\n//# sourceURL=webpack://webpack-demo/./src/modules/clear-list.js?");
 
 /***/ }),
 
