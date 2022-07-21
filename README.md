@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Testing To Do list: part 2
-> In this project I created a functional to do list using a simple HTML list and displaying the list dynamically. You can add tasks and remove them manually. All of this implementing ES6 syntax, also this project have been tested.
+> In this project I created a functional to do list using a simple HTML list and displaying the list dynamically. You can add tasks and remove them manually. All of this implementing ES6 syntax, also this project have been tested using jest.
 
 ## Built With
 - HTML
